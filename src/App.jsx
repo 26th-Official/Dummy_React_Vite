@@ -5,7 +5,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  
+
   const [count, setCount] = useState(0)
 
   useEffect(() => {
@@ -16,6 +16,7 @@ function App() {
 
     axios.get("http://localhost:6565/getall",{
       withCredentials : true
+      
     }).then(res => console.warn(res))
   })
 

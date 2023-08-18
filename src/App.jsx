@@ -17,7 +17,6 @@ function App() {
       withCredentials : true
     }).then(res => console.warn(res))
   })
-  
 
   return (
     <>
